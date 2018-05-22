@@ -1,0 +1,53 @@
+#main_container{
+	width: 50%;
+	padding: 10px;
+	margin: auto;
+	min-height: 85vh;
+	max-height: 85vh;
+}
+
+#message_container{
+	overflow-y: auto;
+	max-height: 60vh;
+}
+
+.message_block {
+	margin: 10px;
+	padding: 10px;
+	background: rgb(250, 250, 250);
+}
+
+.author {
+	font-size: 10px;
+}
+
+.in_line{
+	display: inline;
+}
+
+.to_right {
+	float: right;
+}
+
+#send_holder{
+	background: rgb(200, 200, 200);
+	overflow: hidden;
+	vertical-align: bottom;
+  	position: absolute;
+  	bottom: 5%;
+  	width: 50%;
+  	padding: 2px;
+  	border-radius: 5px;
+}
+
+#send_btn {
+	width: 10%;
+	margin-left: 5px;
+}
+
+#text {
+	width: 97%;
+	resize: none;
+	padding: 10px;
+	margin-right: 20px;
+}
